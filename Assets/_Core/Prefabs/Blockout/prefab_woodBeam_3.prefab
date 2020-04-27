@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 3545401761636887579}
   - component: {fileID: 5505873338282939949}
   - component: {fileID: 2257503850068830932}
+  - component: {fileID: 3925125067671145359}
   m_Layer: 0
-  m_Name: mesh_woodBeam_3
+  m_Name: prefab_woodBeam_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25,9 +26,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 533841236767792648}
-  m_LocalRotation: {x: 0.004005326, y: -0.004005326, z: -0.70709544, w: 0.70709544}
+  m_LocalRotation: {x: 0.004004798, y: -0.004004798, z: -0.70709544, w: 0.70709544}
   m_LocalPosition: {x: -6.48, y: 3.67, z: 0.669}
-  m_LocalScale: {x: 0.007584985, y: 0.006129618, z: 0.009888991}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -79,3 +80,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &3925125067671145359
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 533841236767792648}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 71.60817, y: 411.74673, z: 64.110825}
+  m_Center: {x: -30.698301, y: -1.6769415, z: 1.4909588}

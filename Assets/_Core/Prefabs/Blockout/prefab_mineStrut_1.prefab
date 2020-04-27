@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5483393234148560291}
   - component: {fileID: 3549940033991194517}
   - component: {fileID: 7097500167266388844}
+  - component: {fileID: 4971713055340421968}
   m_Layer: 0
   m_Name: prefab_mineStrut_1
   m_TagString: Untagged
@@ -25,9 +26,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8810084036864278448}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -5.477, y: 3.4, z: 0.67438793}
-  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_LocalScale: {x: 1.6496516, y: 2.2089827, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -79,3 +80,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &4971713055340421968
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8810084036864278448}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 181.9144, y: 161.84756, z: 84.72509}
+  m_Center: {x: -2.910383e-11, y: 0.000068664565, z: -0.00010299682}
