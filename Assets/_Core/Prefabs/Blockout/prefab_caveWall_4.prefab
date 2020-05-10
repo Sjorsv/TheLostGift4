@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 644858109885877727}
   - component: {fileID: 6615355072485060902}
   m_Layer: 0
-  m_Name: mesh_caveWall_4
+  m_Name: prefab_caveWall_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -48,7 +48,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4896152144364619258}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 2
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_MotionVectors: 1
