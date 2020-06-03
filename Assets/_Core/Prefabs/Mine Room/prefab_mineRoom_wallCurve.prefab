@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8736560700317599592}
   - component: {fileID: 3027253205682256785}
   m_Layer: 0
-  m_Name: mesh_mineRoom_wallCurve
+  m_Name: prefab_mineRoom_wallCurve
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39,7 +39,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3620367214559383373}
-  m_Mesh: {fileID: 6099800089077584851, guid: 7650b33878ac5074398798e7089af215, type: 3}
+  m_Mesh: {fileID: 7894252225063389244, guid: 7650b33878ac5074398798e7089af215, type: 3}
 --- !u!23 &3027253205682256785
 MeshRenderer:
   m_ObjectHideFlags: 0
