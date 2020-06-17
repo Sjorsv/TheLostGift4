@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CrystalScript : MonoBehaviour
 {
-    public bool Activated = false;
+    public bool ActivatedA;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +20,8 @@ public class CrystalScript : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log("collide");
-        bool Activated = true;
+        ActivatedA = true;
     }
+
+
 }
