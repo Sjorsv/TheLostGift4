@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class CrystalScript : MonoBehaviour
 {
-    public bool ActivatedA;
+   
+    public Animator Anim;
     // Start is called before the first frame update
     void Start()
     {
-        
+        Anim = gameObject.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -17,11 +18,12 @@ public class CrystalScript : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        Debug.Log("collide");
-        ActivatedA = true;
-    }
 
+    public void ChangeColor()
+    {
+        Debug.Log("Crystal moet blauw worden");
+        Anim.SetTrigger("turnBlue");
+       
+    }
 
 }
