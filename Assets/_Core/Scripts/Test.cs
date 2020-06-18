@@ -5,52 +5,45 @@ using UnityEngine;
 public class Test : MonoBehaviour
 {
     public List<Animator> anims;
+    bool check;
 
     public void ChangeToWater()
     {        
-        for (int i = 0; i < anims.Count; i++)
-        {
-            print("toWater");
-            StartCoroutine(DoAnimation(anims[i], "toWater"));
-        }
+        print("toWater");
+        StartCoroutine(Somewhere(anims, "toWater"));
     }
 
     public void ChangeToSteam()
     {        
-        for (int i = 0; i < anims.Count; i++)
-        {
-            print("toSteam");
-            StartCoroutine(DoAnimation(anims[i], "toSteam"));
-        }
+        print("toSteam");
+        StartCoroutine(Somewhere(anims, "toSteam"));
     }
 
     public void ChangeToOriginal()
     {        
+        print("toOrigin");
+        StartCoroutine(Somewhere(anims, "toOrigin"));
+    }
+
+    IEnumerator Somewhere(List<Animator> anims, string animTrigger)
+    {
+        check = false;
         for (int i = 0; i < anims.Count; i++)
         {
-            print("toOrigin");
-            StartCoroutine(DoAnimation(anims[i], "toOrigin"));
+            yield return StartCoroutine(WaitSStartCheck(anims[i], animTrigger));
+            if (check)
+            {
+                print("PlayingAnim");
+                anims[i].SetTrigger(animTrigger);
+            }
         }
     }
 
-    IEnumerator DoAnimation(Animator anims, string animTrigger)
+    IEnumerator WaitSStartCheck(Animator anims, string animTrigger)
     {
-        print("PlayingAnim");
-        anims.SetTrigger(animTrigger);
-        yield return new WaitForSeconds(anims.GetCurrentAnimatorStateInfo(0).length + anims.GetCurrentAnimatorStateInfo(0).normalizedTime);
-        anims.SetTrigger(animTrigger);
+        print(anims.GetCurrentAnimatorStateInfo(0).length + anims.GetCurrentAnimatorStateInfo(0).normalizedTime);
+        yield return new WaitForSeconds(anims.GetCurrentAnimatorStateInfo(0).length);
         print("EndAnim");
+        check = true;
     }
-
-    //public void ChangeToSteam()
-    //{
-    //    for (int i = 0; i < anims.Count; i++)
-    //    {
-    //        anims[i].SetTrigger("TriggerNaam");
-    //        if (anims[i].GetCurrentAnimatorStateInfo(0).IsName("Animname(ChangeToSteamColour"))
-    //        {
-
-    //        }
-    //    }
-    //}
 }
