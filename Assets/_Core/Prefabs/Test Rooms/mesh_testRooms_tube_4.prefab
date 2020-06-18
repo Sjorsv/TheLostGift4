@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1196161872468427325}
   - component: {fileID: 4874328052677689028}
   - component: {fileID: 5313906110562092666}
+  - component: {fileID: 303387828625761808}
   m_Layer: 0
   m_Name: mesh_testRooms_tube_4
   m_TagString: Untagged
@@ -94,3 +95,22 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 9210059723357146136, guid: 53007c08edf3ecc40a7578a414547362, type: 3}
+--- !u!95 &303387828625761808
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6600519507322669592}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b52038792e9a38846aeb06b049af6707, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
