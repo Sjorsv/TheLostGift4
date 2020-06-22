@@ -45,12 +45,12 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 0.7068606, b: 0.514151, a: 1}
   m_Intensity: 4.4483805
-  m_Range: 9.5
+  m_Range: 5.2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -83,7 +83,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 2
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 3
@@ -118,7 +118,7 @@ MonoBehaviour:
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
   m_LightDimmer: 1
-  m_VolumetricDimmer: 1
+  m_VolumetricDimmer: 2.5
   m_LightUnit: 0
   m_FadeDistance: 10000
   m_AffectDiffuse: 1
@@ -168,8 +168,8 @@ MonoBehaviour:
   m_MaxDepthBias: 0.001
   m_ShadowResolution:
     m_Override: 512
-    m_UseOverride: 1
-    m_Level: 0
+    m_UseOverride: 0
+    m_Level: 3
   m_ShadowDimmer: 1
   m_VolumetricShadowDimmer: 1
   m_ShadowFadeDistance: 10000
@@ -182,7 +182,7 @@ MonoBehaviour:
   m_PenumbraTint: 0
   m_NormalBias: 0.75
   m_SlopeBias: 0.5
-  m_ShadowUpdateMode: 0
+  m_ShadowUpdateMode: 1
   m_BarnDoorAngle: 90
   m_BarnDoorLength: 0.05
   m_ShadowCascadeRatios:
@@ -229,7 +229,7 @@ Transform:
   m_GameObject: {fileID: 1201652896048186254}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.73521, y: 0.73521, z: 0.73521}
   m_Children:
   - {fileID: 5761466391952729733}
   - {fileID: 3895493712408237174}
