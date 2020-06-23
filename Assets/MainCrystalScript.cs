@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class MainCrystalScript : MonoBehaviour
 {
+    public Animator Anim;
     public bool ActivatedA;
     public bool ActivatedB;
     public bool ActivatedC;
@@ -13,7 +14,7 @@ public class MainCrystalScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       
+        
     }
 
     // Update is called once per frame
@@ -25,6 +26,7 @@ public class MainCrystalScript : MonoBehaviour
     public void ActivateA()
     {
         Debug.Log("Crystal 1 activated");
+       
         ActivatedA = true;
     }
 
