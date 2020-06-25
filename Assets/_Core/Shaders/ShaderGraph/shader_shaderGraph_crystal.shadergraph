@@ -8,15 +8,15 @@
         },
         {
             "typeInfo": {
-                "fullName": "UnityEditor.ShaderGraph.Internal.CubemapShaderProperty"
-            },
-            "JSONnodeData": "{\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"ac16882d-4b4a-45c3-ab1c-3a3936802501\"\n    },\n    \"m_Name\": \"CrystalCubemap\",\n    \"m_DefaultReferenceName\": \"Cubemap_DD2E5EE\",\n    \"m_OverrideReferenceName\": \"\",\n    \"m_GeneratePropertyBlock\": true,\n    \"m_Precision\": 0,\n    \"m_GPUInstanced\": false,\n    \"m_Hidden\": false,\n    \"m_Value\": {\n        \"m_SerializedCubemap\": \"{\\\"cubemap\\\":{\\\"fileID\\\":8900000,\\\"guid\\\":\\\"db2f96ec392d8a948991adeab5327548\\\",\\\"type\\\":3}}\",\n        \"m_Guid\": \"\"\n    },\n    \"m_Modifiable\": true\n}"
-        },
-        {
-            "typeInfo": {
                 "fullName": "UnityEditor.ShaderGraph.Internal.ColorShaderProperty"
             },
             "JSONnodeData": "{\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"af51a8db-c832-4abe-bbfd-27e3b2168247\"\n    },\n    \"m_Name\": \"CrystalColour\",\n    \"m_DefaultReferenceName\": \"Color_73260FA0\",\n    \"m_OverrideReferenceName\": \"\",\n    \"m_GeneratePropertyBlock\": true,\n    \"m_Precision\": 0,\n    \"m_GPUInstanced\": false,\n    \"m_Hidden\": false,\n    \"m_Value\": {\n        \"r\": 1.0,\n        \"g\": 1.0,\n        \"b\": 1.0,\n        \"a\": 0.0\n    },\n    \"m_ColorMode\": 1\n}"
+        },
+        {
+            "typeInfo": {
+                "fullName": "UnityEditor.ShaderGraph.Internal.CubemapShaderProperty"
+            },
+            "JSONnodeData": "{\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"ac16882d-4b4a-45c3-ab1c-3a3936802501\"\n    },\n    \"m_Name\": \"CrystalCubemap\",\n    \"m_DefaultReferenceName\": \"Cubemap_DD2E5EE\",\n    \"m_OverrideReferenceName\": \"\",\n    \"m_GeneratePropertyBlock\": true,\n    \"m_Precision\": 0,\n    \"m_GPUInstanced\": false,\n    \"m_Hidden\": false,\n    \"m_Value\": {\n        \"m_SerializedCubemap\": \"{\\\"cubemap\\\":{\\\"fileID\\\":8900000,\\\"guid\\\":\\\"db2f96ec392d8a948991adeab5327548\\\",\\\"type\\\":3}}\",\n        \"m_Guid\": \"\"\n    },\n    \"m_Modifiable\": true\n}"
         },
         {
             "typeInfo": {
@@ -85,7 +85,7 @@
             "typeInfo": {
                 "fullName": "UnityEditor.ShaderGraph.PropertyNode"
             },
-            "JSONnodeData": "{\n    \"m_GuidSerialized\": \"d1f0554f-57d1-4f56-9477-f6edde7ada14\",\n    \"m_GroupGuidSerialized\": \"e83bfcf0-54e3-4a46-a784-fb9d18b1c64a\",\n    \"m_Name\": \"Property\",\n    \"m_NodeVersion\": 0,\n    \"m_DrawState\": {\n        \"m_Expanded\": true,\n        \"m_Position\": {\n            \"serializedVersion\": \"2\",\n            \"x\": 433.0000305175781,\n            \"y\": -68.99999237060547,\n            \"width\": 221.00001525878907,\n            \"height\": 34.0\n        }\n    },\n    \"m_SerializableSlots\": [\n        {\n            \"typeInfo\": {\n                \"fullName\": \"UnityEditor.ShaderGraph.Vector1MaterialSlot\"\n            },\n            \"JSONnodeData\": \"{\\n    \\\"m_Id\\\": 0,\\n    \\\"m_DisplayName\\\": \\\"CrystalCubemapVisibility\\\",\\n    \\\"m_SlotType\\\": 1,\\n    \\\"m_Priority\\\": 2147483647,\\n    \\\"m_Hidden\\\": false,\\n    \\\"m_ShaderOutputName\\\": \\\"Out\\\",\\n    \\\"m_StageCapability\\\": 3,\\n    \\\"m_Value\\\": 0.0,\\n    \\\"m_DefaultValue\\\": 0.0,\\n    \\\"m_Labels\\\": [\\n        \\\"X\\\"\\n    ]\\n}\"\n        }\n    ],\n    \"m_Precision\": 0,\n    \"m_PreviewExpanded\": true,\n    \"m_CustomColors\": {\n        \"m_SerializableColors\": []\n    },\n    \"m_PropertyGuidSerialized\": \"302fccbd-b9b8-4c23-a89a-38e6a298eca5\"\n}"
+            "JSONnodeData": "{\n    \"m_GuidSerialized\": \"d1f0554f-57d1-4f56-9477-f6edde7ada14\",\n    \"m_GroupGuidSerialized\": \"e83bfcf0-54e3-4a46-a784-fb9d18b1c64a\",\n    \"m_Name\": \"Property\",\n    \"m_NodeVersion\": 0,\n    \"m_DrawState\": {\n        \"m_Expanded\": true,\n        \"m_Position\": {\n            \"serializedVersion\": \"2\",\n            \"x\": 433.0,\n            \"y\": -61.0,\n            \"width\": 220.0,\n            \"height\": 34.0\n        }\n    },\n    \"m_SerializableSlots\": [\n        {\n            \"typeInfo\": {\n                \"fullName\": \"UnityEditor.ShaderGraph.Vector1MaterialSlot\"\n            },\n            \"JSONnodeData\": \"{\\n    \\\"m_Id\\\": 0,\\n    \\\"m_DisplayName\\\": \\\"CrystalCubemapVisibility\\\",\\n    \\\"m_SlotType\\\": 1,\\n    \\\"m_Priority\\\": 2147483647,\\n    \\\"m_Hidden\\\": false,\\n    \\\"m_ShaderOutputName\\\": \\\"Out\\\",\\n    \\\"m_StageCapability\\\": 3,\\n    \\\"m_Value\\\": 0.0,\\n    \\\"m_DefaultValue\\\": 0.0,\\n    \\\"m_Labels\\\": [\\n        \\\"X\\\"\\n    ]\\n}\"\n        }\n    ],\n    \"m_Precision\": 0,\n    \"m_PreviewExpanded\": true,\n    \"m_CustomColors\": {\n        \"m_SerializableColors\": []\n    },\n    \"m_PropertyGuidSerialized\": \"302fccbd-b9b8-4c23-a89a-38e6a298eca5\"\n}"
         },
         {
             "typeInfo": {
