@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6689774270001567030}
   - component: {fileID: 2976542122803983840}
   - component: {fileID: 4005708489861233510}
+  - component: {fileID: 4565050293838754383}
   m_Layer: 0
   m_Name: mesh_mineSteelBeam_5
   m_TagString: Untagged
@@ -79,6 +80,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &4565050293838754383
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 671710022640618388}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.6975122, y: 0.61598516, z: 0.69877595}
+  m_Center: {x: 0.0000011026859, y: -0.000000014901161, z: 0}
 --- !u!1 &2071382293257075427
 GameObject:
   m_ObjectHideFlags: 0
@@ -90,6 +104,7 @@ GameObject:
   - component: {fileID: 194466224912489655}
   - component: {fileID: 4269422159297157713}
   - component: {fileID: 3088689002317947862}
+  - component: {fileID: 2743454295687207669}
   m_Layer: 0
   m_Name: mesh_mineSteelBeam_4
   m_TagString: Untagged
@@ -158,6 +173,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &2743454295687207669
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2071382293257075427}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.7018994, y: 0.6066742, z: 0.7034122}
+  m_Center: {x: -0.00000011920929, y: -0.000000029802322, z: 0}
 --- !u!1 &4436618944395423816
 GameObject:
   m_ObjectHideFlags: 0
@@ -169,6 +197,7 @@ GameObject:
   - component: {fileID: 9040761443406408249}
   - component: {fileID: 8052969670702265032}
   - component: {fileID: 1243500073806664463}
+  - component: {fileID: 4594492001286498524}
   m_Layer: 0
   m_Name: mesh_mineSteelBeam_8
   m_TagString: Untagged
@@ -237,6 +266,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &4594492001286498524
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4436618944395423816}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.6974902, y: 0.6159849, z: 0.6985129}
+  m_Center: {x: 0.000007212162, y: -0.00000016391277, z: 0.00013153255}
 --- !u!1 &6354501102435651128
 GameObject:
   m_ObjectHideFlags: 0
@@ -248,6 +290,7 @@ GameObject:
   - component: {fileID: 6019895417028073131}
   - component: {fileID: 3020218934045420010}
   - component: {fileID: 5253590752774089853}
+  - component: {fileID: 685976194180252481}
   m_Layer: 0
   m_Name: mesh_mineSteelBeam_6
   m_TagString: Untagged
@@ -316,6 +359,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &685976194180252481
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6354501102435651128}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.6958203, y: 0.61606133, z: 0.6943649}
+  m_Center: {x: -0.00063732266, y: -0.000000044703484, z: -0.0006970167}
 --- !u!1 &8592756142042240708
 GameObject:
   m_ObjectHideFlags: 0
@@ -339,7 +395,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8592756142042240708}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -30.228943, y: 0, z: 65.535034}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
