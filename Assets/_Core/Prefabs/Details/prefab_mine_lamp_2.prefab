@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 7172800343721348061}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: -28.87, y: 3.0887, z: 3.462}
-  m_LocalScale: {x: 1.3098501, y: 1.3098501, z: 1.3098501}
+  m_LocalScale: {x: 1.3098499, y: 1.3098501, z: 1.3098499}
   m_Children:
   - {fileID: 4382864667244736214}
   - {fileID: 4983327534962072613}
@@ -63,7 +63,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8297819751605787742
 Transform:
@@ -91,7 +91,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.95750225, g: 0.7971698, b: 1, a: 1}
-  m_Intensity: 3.9788735
+  m_Intensity: 4.376761
   m_Range: 5.2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -160,7 +160,7 @@ MonoBehaviour:
   m_PointlightHDType: 0
   m_SpotLightShape: 0
   m_AreaLightShape: 0
-  m_Intensity: 50
+  m_Intensity: 55
   m_EnableSpotReflector: 0
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
