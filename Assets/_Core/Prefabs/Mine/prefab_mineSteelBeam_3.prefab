@@ -11,12 +11,13 @@ GameObject:
   - component: {fileID: 5317964144548647173}
   - component: {fileID: 3789271703202900787}
   - component: {fileID: 7469989515278604234}
+  - component: {fileID: 2471015134613160809}
   m_Layer: 0
-  m_Name: mesh_mineSteelBeam_3
+  m_Name: prefab_mineSteelBeam_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5317964144548647173
 Transform:
@@ -25,7 +26,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9193656559828263702}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -26.489258, y: 0.53396463, z: 69.62738}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -58,7 +59,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 964bdadad5a41bd45ab8785aebe8bfe1, type: 2}
+  - {fileID: 2100000, guid: 25c34343f3b8b984596fe7a182997adf, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -79,3 +80,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &2471015134613160809
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9193656559828263702}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.65631104, y: 3.9436061, z: 0.721033}
+  m_Center: {x: 0.009476706, y: 1.5868589, z: -0.00000016391277}

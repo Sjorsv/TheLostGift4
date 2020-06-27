@@ -14,7 +14,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1996799344344112861
 Transform:
@@ -31,6 +31,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1117238099
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5582862697027798686}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.45, y: 1.2878423, z: 1.45}
+  m_Center: {x: 0, y: -3.1147528, z: 0}
+--- !u!65 &1117238100
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5582862697027798686}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.73, y: 7.517348, z: 0.73}
+  m_Center: {x: 0, y: 0, z: 0.000000059604645}
 --- !u!1001 &6627390428585715593
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -98,10 +124,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: meah_details
       objectReference: {fileID: 0}
+    - target: {fileID: -3486428976120671859, guid: f090373bc4384e342b5c25457da2bf30,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: -927199367670048503, guid: f090373bc4384e342b5c25457da2bf30,
         type: 3}
       propertyPath: m_Name
       value: mesh_mineRoom_pillar_1
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f090373bc4384e342b5c25457da2bf30,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -775087923625493444, guid: f090373bc4384e342b5c25457da2bf30,
         type: 3}
@@ -118,11 +154,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: mesh_[illar
       objectReference: {fileID: 0}
+    - target: {fileID: 1622255121393246487, guid: f090373bc4384e342b5c25457da2bf30,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f090373bc4384e342b5c25457da2bf30, type: 3}
 --- !u!4 &2198755755227958419 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: f090373bc4384e342b5c25457da2bf30,
+    type: 3}
+  m_PrefabInstance: {fileID: 6627390428585715593}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5582862697027798686 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1622255121393246487, guid: f090373bc4384e342b5c25457da2bf30,
     type: 3}
   m_PrefabInstance: {fileID: 6627390428585715593}
   m_PrefabAsset: {fileID: 0}
