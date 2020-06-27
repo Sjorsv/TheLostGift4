@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace Invector
 {
-    public class vPlatform : vMonoBehaviour
+    public class vPlatform2 : vMonoBehaviour
     {
         #region Variables
 
@@ -71,7 +71,7 @@ namespace Invector
                
             }
             
-            //StartCoroutine(PauseLogic(value));
+            StartCoroutine(PauseLogic(value));
 
         }
 
