@@ -1,4 +1,6 @@
 ﻿using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace Invector
 {
@@ -26,6 +28,7 @@ namespace Invector
         float currentSpeed;
         float dist, currentDist;
         Transform targetTransform;
+        bool isReached;
 
         #endregion
 
@@ -62,8 +65,67 @@ namespace Invector
 
         public void SetPause(bool value)
         {
+              //yield return new WaitForEndOfFrame();
+              if (isReached) {
+                //pause = value;
+               
+            }
+            
+            //StartCoroutine(PauseLogic(value));
+
+        }
+
+
+        private IEnumerator PauseLogic(bool value)
+        {
+            while (currentDist > 0.02f)
+            {
+                pause = false;
+                yield return null;
+
+            }
             pause = value;
         }
+        //{
+        //    currentDist = Vector3.Distance(transform.position, targetTransform.position);
+
+        //    if (currentTime <= 0)
+        //    {
+        //        var distFactor = (float)Mathf.Clamp((100f - ((float)(100f * currentDist) / dist)) * 0.01f, 0, 1f);
+        //        //distFactor = (float)System.Math.Round(distFactor, 6);
+
+        //        transform.position = Vector3.MoveTowards(transform.position, targetTransform.position, currentSpeed * Time.deltaTime);
+        //        if (!float.IsNaN(distFactor) && !float.IsInfinity(distFactor) && oldEuler != (oldEuler + (((targetTransform.eulerAngles) - oldEuler))))
+        //        {
+        //            transform.eulerAngles = Vector3.Lerp(oldEuler, targetTransform.eulerAngles, distFactor);
+        //        }
+        //    }
+        //    else
+        //        currentTime -= Time.fixedDeltaTime;
+
+        //    if (currentDist < 0.02f)
+        //    {
+        //        currentSpeed = points[index].useDefaultSpeed ? defaultSpeed : points[index].speedToNextPoint;
+        //        currentTime = points[index].useDefaultStayTime ? defaultStayTime : points[index].stayTime;
+        //        if (!invert)
+        //        {
+        //            if (index + 1 < points.Length) index++;
+        //            else invert = true;
+        //        }
+        //        else
+        //        {
+        //            if (index - 1 >= 0) index--;
+        //            else invert = false;
+        //        }
+        //        dist = Vector3.Distance(targetTransform.position, points[index].transform.position);
+        //        targetTransform = points[index].transform;
+        //        oldEuler = transform.eulerAngles;
+        //    }
+        
+        //yield return new WaitForEndOfFrame();
+        //    //Set pause bool
+        //    pause = true;
+        //}
 
         void Start()
         {
@@ -105,6 +167,7 @@ namespace Invector
                 if (!float.IsNaN(distFactor) && !float.IsInfinity(distFactor) && oldEuler != (oldEuler + (((targetTransform.eulerAngles) - oldEuler))))
                 {
                     transform.eulerAngles = Vector3.Lerp(oldEuler, targetTransform.eulerAngles, distFactor);
+                    isReached = false; 
                 }
             }
             else
@@ -112,6 +175,7 @@ namespace Invector
 
             if (currentDist < 0.02f)
             {
+                isReached = true;
                 currentSpeed = points[index].useDefaultSpeed ? defaultSpeed : points[index].speedToNextPoint;
                 currentTime = points[index].useDefaultStayTime ? defaultStayTime : points[index].stayTime;
                 if (!invert)
