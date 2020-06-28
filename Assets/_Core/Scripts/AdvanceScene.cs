@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class AdvanceLevel : MonoBehaviour
+public class AdvanceScene : MonoBehaviour
 {
     // Start is called before the first frame update
 
