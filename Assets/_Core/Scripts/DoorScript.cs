@@ -27,7 +27,7 @@ public class DoorScript : MonoBehaviour
     private void Update()
     {
         if (dooropened == true)
-            if (doorspeed_climb < 5)
+            if (doorspeed_climb < -65.386)
             {
         {
             //doorspeed_climb += RisingSpeed * Time.deltaTime;
