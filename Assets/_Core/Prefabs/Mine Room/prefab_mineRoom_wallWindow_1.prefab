@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!65 &9024522608908179868
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7853267629579806299}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.078, y: 7.0003977, z: 4.780709}
+  m_Center: {x: 0, y: 3.5001988, z: -0.00000023841858}
 --- !u!1 &8586590632782170875
 GameObject:
   m_ObjectHideFlags: 0
@@ -14,7 +27,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4716090657171273960
 Transform:
@@ -103,10 +116,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293783724674413196, guid: 00c897c7446f6c04c9a69ca763f7bc53,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -927199367670048503, guid: 00c897c7446f6c04c9a69ca763f7bc53,
         type: 3}
       propertyPath: m_Name
       value: mesh_mineRoom_wallWindow_1
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 00c897c7446f6c04c9a69ca763f7bc53,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 628147531078008245, guid: 00c897c7446f6c04c9a69ca763f7bc53,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5183154907496644399, guid: 00c897c7446f6c04c9a69ca763f7bc53,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8788647838236397003, guid: 00c897c7446f6c04c9a69ca763f7bc53,
         type: 3}
@@ -118,6 +151,12 @@ PrefabInstance:
 --- !u!4 &2391830709099917556 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 00c897c7446f6c04c9a69ca763f7bc53,
+    type: 3}
+  m_PrefabInstance: {fileID: 7227091668889820142}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7853267629579806299 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 628147531078008245, guid: 00c897c7446f6c04c9a69ca763f7bc53,
     type: 3}
   m_PrefabInstance: {fileID: 7227091668889820142}
   m_PrefabAsset: {fileID: 0}
