@@ -11,8 +11,8 @@ public class AdvanceScene : MonoBehaviour
     void OnTriggerEnter(Collider coll)
     {
         {
-            if (coll.gameObject.tag == "LoadScene")
-                SceneManager.LoadSceneAsync(2);
+            
+                SceneManager.LoadSceneAsync(1);
         }
     }
 }
